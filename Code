@@ -1,0 +1,7 @@
+change=input ("Input Please.(Like if you wanna. No pressure.)")
+show = change.split()
+show = list(reversed(show))
+outshow = list(" ".join(show))
+inshow = list(change)
+print (inshow)
+print (outshow)
